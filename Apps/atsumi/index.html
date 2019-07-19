@@ -40,7 +40,7 @@
 				var viewer = new Cesium.Viewer('cesiumContainer');
 				
 				// Initial position
-				var initialPosition = Cesium.Cartesian3.fromDegrees(140.7258889,39.0204578,1500);
+				var initialPosition = Cesium.Cartesian3.fromDegrees(139.5539174,38.3537217,1500);
 				var initialOrientation = new Cesium.HeadingPitchRoll.fromDegrees(0.5, -90, 0.00);
 
 				viewer.scene.camera.setView({
@@ -51,11 +51,11 @@
 
 				// 3D model
 				var tileset = viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
-					url : './model/tileset.json'
+					url : './kouguchi/tileset.json'
 				}));
 
 				var tileset2 = viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
-					url : './naruse2To/tileset.json'
+					url : './tunnel/tileset.json'
 				}));
 			
 						
