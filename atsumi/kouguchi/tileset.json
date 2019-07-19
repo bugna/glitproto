@@ -1,0 +1,37 @@
+{
+	"asset" : {
+		"version" : "0.0"
+	},
+	"properties" : {
+		"autocad_layer" : {},
+		"fme_color" : {},
+		"fme_feature_type" : {},
+		"autocad_entity" : {},
+		"autocad_original_entity_type" : {},
+		"autocad_ucs_origin_x" : {
+			"minimum" : 0,
+			"maximum" : 0
+		},
+		"autocad_ucs_origin_y" : {
+			"minimum" : 0,
+			"maximum" : 0
+		},
+		"autocad_ucs_origin_z" : {
+			"minimum" : 0,
+			"maximum" : 0
+		}
+	},
+	"geometricError" : 687.5494701527059,
+	"root" : {
+		"boundingVolume" : {
+			"box" : [ -3810655.489408573, 3248025.9423689186, 3937926.5810927832, 119.63587003527209, 0, 0, 0, 673.8522948212922, 0, 0, 0, 687.5571002727374 ]
+		},
+		"refine" : "ADD",
+		"content" : {
+			"boundingVolume" : {
+				"box" : [ -3810655.489408573, 3248025.9423689186, 3937926.5810927832, 119.63587003527209, 0, 0, 0, 673.8522948212922, 0, 0, 0, 687.5571002727374 ]
+			},
+			"url" : "data/data0.b3dm"
+		}
+	}
+}
